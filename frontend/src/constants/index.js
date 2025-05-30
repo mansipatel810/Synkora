@@ -44,11 +44,7 @@ export const THEMES = [
     label: "Retro",
     colors: ["#e4d8b4", "#ea6962", "#6aaa64", "#282425"],
   },
-  {
-    name: "cyberpunk",
-    label: "Cyberpunk",
-    colors: ["#ffee00", "#ff7598", "#75d1f0", "#1a103d"],
-  },
+ 
   {
     name: "valentine",
     label: "Valentine",
