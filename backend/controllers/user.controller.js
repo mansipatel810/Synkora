@@ -10,9 +10,11 @@ export async function getRecommendedUsers(req, res) {
       $and: [
         { _id: { $ne: currentUserId } }, //exclude current user
         { _id: { $nin: currentUser.friends } }, // exclude current user's friends
-        { isOnboarded: true },
+        // { isOnboarded: true },
       ],
     });
+
+
     res.status(200).json(recommendedUsers);
   } catch (error) {
     console.error("Error in getRecommendedUsers controller", error.message);
