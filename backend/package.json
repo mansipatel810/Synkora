@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
     "stream-chat": "^8.60.0",
+    "synkora": "file:..",
     "zustand": "^5.0.5"
   }
 }
