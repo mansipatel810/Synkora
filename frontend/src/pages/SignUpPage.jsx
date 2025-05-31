@@ -23,7 +23,7 @@ const SignUpPage = () => {
   return (
     <div
       className="h-screen flex items-center justify-center p-4 sm:p-6 md:p-8"
-      data-theme="cupcake"
+      data-theme="Night"
     >
       <div className="border border-primary/25 flex flex-col lg:flex-row w-full max-w-5xl mx-auto bg-base-100 rounded-xl shadow-lg overflow-hidden">
         <div className="left w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">
@@ -138,7 +138,7 @@ const SignUpPage = () => {
         <div className="right hidden lg:flex w-full lg:w-1/2 bg-primary/10 items-center justify-center">
           <div className="max-w-md p-8">
             <div className="relative aspect-square max-w-sm mx-auto">
-              <img src="/Video call-pana.png" alt="Language connection illustration" className="w-full h-full" />
+              <img src="/Video call-pana2.png" alt="Language connection illustration" className="w-full h-full" />
             </div>
 
             <div className="text-center space-y-3 mt-6">
